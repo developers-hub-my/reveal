@@ -5,7 +5,7 @@ Infrastructure discovery agent for IT assessments. One static binary inventories
 scheduled jobs, certificates, utilisation, a read-only security baseline and backup
 evidence) and seals the result into a signed, encrypted `.g8b` bundle for your assessor.
 
-By **Developers Hub Sdn Bhd** · https://devhub.my · https://g8deck-reveal.netlify.app
+By **Developers Hub Sdn Bhd** · https://devhub.my · https://reveal.g8deck.com
 
 This repo holds the compiled downloads only. Get them from **[Releases](https://github.com/developers-hub-my/reveal/releases/latest)**.
 
