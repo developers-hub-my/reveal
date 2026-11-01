@@ -9,6 +9,16 @@ By **Developers Hub Sdn Bhd** · https://devhub.my · https://reveal.g8deck.com
 
 This repo holds the compiled downloads only. Get them from **[Releases](https://github.com/developers-hub-my/reveal/releases/latest)**.
 
+`reveal run` inventories the host and seals the result. Anything it cannot read is flagged, not hidden:
+
+![reveal run on an AlmaLinux host: each collector with its count, partial and skipped ones with the reason, then the signed, encrypted bundle](docs/reveal-run.png)
+
+`reveal inspect` shows what a bundle holds before anyone uploads it:
+
+![reveal inspect: host, profile, collected counts, what was not taken, the receiver key it is encrypted to and the agent signature](docs/reveal-inspect.png)
+
+<sub>Real output from Reveal 0.1.0 (Linux arm64) on a throwaway AlmaLinux 9 demo host, not a customer system.</sub>
+
 ## Downloads
 
 | File | For |
